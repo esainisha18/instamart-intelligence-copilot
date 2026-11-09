@@ -19,9 +19,9 @@ This repository houses the complete capstone project across four interconnected 
 Follow these commands in order from a clean clone to reproduce the entire pipeline:
 
 ```bash
-# 1. Clone repository and navigate to root
-git clone [https://github.com/](https://github.com/)<username>/instamart-intelligence-copilot.git
-cd instamart-intelligence-copilot
+# 1. Clone repository
+git clone https://github.com/esainisha18/instamart-intelligence-copilot.git
+
 
 
 # 2. Create and activate virtual environment
