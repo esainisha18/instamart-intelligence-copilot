@@ -1,0 +1,157 @@
+ticket_id,customer_id,true_category,predicted_category,reason,status,prompt_tokens,completion_tokens,total_tokens,retries,redacted_text
+T0024,C0486,fraud,fraud,keyword match,classified_json,120,7,127,0,There is an unauthorized transaction on my card linked to order [ORDER_ID]. I did not place it. Call [PHONE].
+T0073,C0080,billing,billing,keyword match,classified_json,116,7,123,0,The invoice for [ORDER_ID] shows a wrong amount. Call me on [PHONE] to correct the bill.
+T0095,C1087,technical,technical,keyword match,classified_json,118,7,125,0,The payment page shows an error and the app freezes when I apply a coupon. Order [ORDER_ID].
+T0080,C0910,fraud,fraud,keyword match,classified_json,120,7,127,0,"I was charged for order [ORDER_ID] that I never made, it looks like fraud on my account. Call [PHONE]."
+T0124,C0139,fraud,fraud,keyword match,classified_json,120,7,127,0,"I was charged for order [ORDER_ID] that I never made, it looks like fraud on my account. Call [PHONE]."
+T0061,C0812,billing,billing,keyword match,classified_json,112,7,119,0,"Extra money was deducted for order [ORDER_ID], please check the bill. Contact [EMAIL]"
+T0118,C0355,delivery,delivery,keyword match,classified_json,115,7,122,0,"Delivery for [ORDER_ID] is very late, it was promised in 20 minutes. Write to [EMAIL]"
+T0037,C1156,billing,billing,keyword match,classified_json,116,7,123,0,I was charged twice for order [ORDER_ID]. Please refund the extra payment. My email is [EMAIL]
+T0002,C0881,delivery,delivery,keyword match,classified_json,114,7,121,1,The rider marked [ORDER_ID] as delivered but I never received the package. Call [PHONE].
+T0031,C0958,technical,technical,keyword match,classified_json,118,7,125,0,The payment page shows an error and the app freezes when I apply a coupon. Order [ORDER_ID].
+T0047,C0756,technical,technical,keyword match,classified_json,107,7,114,0,"I cannot login, the OTP never arrives on [PHONE]."
+T0063,C0892,technical,technical,keyword match,classified_json,107,7,114,0,"I cannot login, the OTP never arrives on [PHONE]."
+T0121,C0852,billing,billing,The customer appears to have a billing-related problem.,classified_keyword,116,11,127,0,I was charged twice for order [ORDER_ID]. Please refund the extra payment. My email is [EMAIL]
+T0139,C0829,technical,technical,keyword match,classified_json,123,7,130,0,The app crashes every time I open the cart. I tried to place [ORDER_ID] again and got an error. Email [EMAIL]
+T0115,C1025,technical,technical,keyword match,classified_json,107,7,114,0,"I cannot login, the OTP never arrives on [PHONE]."
+T0123,C0674,technical,technical,keyword match,classified_json,107,7,114,0,"I cannot login, the OTP never arrives on [PHONE]."
+T0116,C0294,fraud,,,flagged_invalid_output,120,7,127,1,"I was charged for order [ORDER_ID] that I never made, it looks like fraud on my account. Call [PHONE]."
+T0136,C0891,fraud,fraud,keyword match,classified_json,114,7,121,0,"Someone hacked my account and used my wallet balance. This is fraud, contact [EMAIL]"
+T0008,C1177,fraud,fraud,keyword match,classified_json,120,7,127,0,There is an unauthorized transaction on my card linked to order [ORDER_ID]. I did not place it. Call [PHONE].
+T0102,C0985,delivery,delivery,keyword match,classified_json,118,7,125,0,My order [ORDER_ID] has not arrived and the rider is not picking up calls. Please call [PHONE].
+T0072,C0218,fraud,fraud,keyword match,classified_json,120,7,127,0,"I was charged for order [ORDER_ID] that I never made, it looks like fraud on my account. Call [PHONE]."
+T0101,C1151,billing,billing,keyword match,classified_json,116,7,123,0,The invoice for [ORDER_ID] shows a wrong amount. Call me on [PHONE] to correct the bill.
+T0059,C0764,technical,technical,keyword match,classified_json,107,7,114,0,"I cannot login, the OTP never arrives on [PHONE]."
+T0049,C0078,billing,billing,keyword match,classified_json,116,7,123,0,The invoice for [ORDER_ID] shows a wrong amount. Call me on [PHONE] to correct the bill.
+T0153,C0150,billing,billing,keyword match,classified_json,112,7,119,1,"Extra money was deducted for order [ORDER_ID], please check the bill. Contact [EMAIL]"
+T0050,C0117,delivery,delivery,The customer appears to have a delivery-related problem.,classified_keyword,114,11,125,0,The rider marked [ORDER_ID] as delivered but I never received the package. Call [PHONE].
+T0147,C0125,technical,technical,keyword match,classified_json,118,7,125,0,The payment page shows an error and the app freezes when I apply a coupon. Order [ORDER_ID].
+T0074,C1119,delivery,delivery,keyword match,classified_json,114,7,121,0,The rider marked [ORDER_ID] as delivered but I never received the package. Call [PHONE].
+T0156,C0328,fraud,fraud,keyword match,classified_json,120,7,127,0,There is an unauthorized transaction on my card linked to order [ORDER_ID]. I did not place it. Call [PHONE].
+T0145,C0751,billing,billing,keyword match,classified_json,116,7,123,0,The invoice for [ORDER_ID] shows a wrong amount. Call me on [PHONE] to correct the bill.
+T0053,C0447,billing,billing,keyword match,classified_json,116,7,123,0,I was charged twice for order [ORDER_ID]. Please refund the extra payment. My email is [EMAIL]
+T0134,C0608,delivery,delivery,keyword match,classified_json,118,7,125,0,My order [ORDER_ID] has not arrived and the rider is not picking up calls. Please call [PHONE].
+T0039,C0298,technical,technical,keyword match,classified_json,123,7,130,1,The app crashes every time I open the cart. I tried to place [ORDER_ID] again and got an error. Email [EMAIL]
+T0016,C0962,fraud,,,flagged_invalid_output,120,7,127,0,"I was charged for order [ORDER_ID] that I never made, it looks like fraud on my account. Call [PHONE]."
+T0055,C1063,technical,technical,keyword match,classified_json,123,7,130,0,The app crashes every time I open the cart. I tried to place [ORDER_ID] again and got an error. Email [EMAIL]
+T0130,C0692,delivery,delivery,keyword match,classified_json,118,7,125,0,My order [ORDER_ID] has not arrived and the rider is not picking up calls. Please call [PHONE].
+T0099,C1000,technical,technical,keyword match,classified_json,123,7,130,0,The app crashes every time I open the cart. I tried to place [ORDER_ID] again and got an error. Email [EMAIL]
+T0062,C0403,delivery,delivery,keyword match,classified_json,114,7,121,0,The rider marked [ORDER_ID] as delivered but I never received the package. Call [PHONE].
+T0013,C0507,billing,billing,The customer appears to have a billing-related problem.,classified_keyword,116,11,127,0,I was charged twice for order [ORDER_ID]. Please refund the extra payment. My email is [EMAIL]
+T0137,C0978,billing,billing,keyword match,classified_json,116,7,123,0,The invoice for [ORDER_ID] shows a wrong amount. Call me on [PHONE] to correct the bill.
+T0152,C0530,fraud,fraud,keyword match,classified_json,120,7,127,1,"I was charged for order [ORDER_ID] that I never made, it looks like fraud on my account. Call [PHONE]."
+T0144,C0521,fraud,fraud,keyword match,classified_json,120,7,127,0,"I was charged for order [ORDER_ID] that I never made, it looks like fraud on my account. Call [PHONE]."
+T0094,C0863,delivery,delivery,keyword match,classified_json,118,7,125,0,My order [ORDER_ID] has not arrived and the rider is not picking up calls. Please call [PHONE].
+T0021,C0909,billing,billing,keyword match,classified_json,112,7,119,0,"Extra money was deducted for order [ORDER_ID], please check the bill. Contact [EMAIL]"
+T0077,C0082,billing,billing,keyword match,classified_json,112,7,119,0,"Extra money was deducted for order [ORDER_ID], please check the bill. Contact [EMAIL]"
+T0036,C0173,fraud,fraud,keyword match,classified_json,120,7,127,0,"I was charged for order [ORDER_ID] that I never made, it looks like fraud on my account. Call [PHONE]."
+T0113,C0077,billing,billing,keyword match,classified_json,112,7,119,0,"Extra money was deducted for order [ORDER_ID], please check the bill. Contact [EMAIL]"
+T0060,C0784,fraud,fraud,keyword match,classified_json,120,7,127,0,There is an unauthorized transaction on my card linked to order [ORDER_ID]. I did not place it. Call [PHONE].
+T0043,C0942,technical,technical,keyword match,classified_json,107,7,114,1,"I cannot login, the OTP never arrives on [PHONE]."
+T0048,C0733,fraud,fraud,keyword match,classified_json,114,7,121,0,"Someone hacked my account and used my wallet balance. This is fraud, contact [EMAIL]"
+T0154,C1071,delivery,,,flagged_invalid_output,118,7,125,0,My order [ORDER_ID] has not arrived and the rider is not picking up calls. Please call [PHONE].
+T0125,C1156,billing,billing,The customer appears to have a billing-related problem.,classified_keyword,112,11,123,0,"Extra money was deducted for order [ORDER_ID], please check the bill. Contact [EMAIL]"
+T0146,C1024,delivery,delivery,keyword match,classified_json,115,7,122,0,"Delivery for [ORDER_ID] is very late, it was promised in 20 minutes. Write to [EMAIL]"
+T0107,C0783,technical,technical,keyword match,classified_json,107,7,114,0,"I cannot login, the OTP never arrives on [PHONE]."
+T0011,C0233,technical,technical,keyword match,classified_json,123,7,130,0,The app crashes every time I open the cart. I tried to place [ORDER_ID] again and got an error. Email [EMAIL]
+T0017,C0028,billing,billing,keyword match,classified_json,116,7,123,0,The invoice for [ORDER_ID] shows a wrong amount. Call me on [PHONE] to correct the bill.
+T0111,C1033,technical,technical,keyword match,classified_json,107,7,114,1,"I cannot login, the OTP never arrives on [PHONE]."
+T0041,C0464,billing,billing,keyword match,classified_json,116,7,123,0,I was charged twice for order [ORDER_ID]. Please refund the extra payment. My email is [EMAIL]
+T0120,C0208,fraud,fraud,keyword match,classified_json,120,7,127,0,There is an unauthorized transaction on my card linked to order [ORDER_ID]. I did not place it. Call [PHONE].
+T0122,C0404,delivery,delivery,keyword match,classified_json,114,7,121,0,The rider marked [ORDER_ID] as delivered but I never received the package. Call [PHONE].
+T0001,C0851,billing,billing,keyword match,classified_json,116,7,123,0,I was charged twice for order [ORDER_ID]. Please refund the extra payment. My email is [EMAIL]
+T0064,C0848,fraud,fraud,keyword match,classified_json,120,7,127,0,There is an unauthorized transaction on my card linked to order [ORDER_ID]. I did not place it. Call [PHONE].
+T0092,C0585,fraud,fraud,keyword match,classified_json,114,7,121,0,"Someone hacked my account and used my wallet balance. This is fraud, contact [EMAIL]"
+T0038,C0882,delivery,delivery,keyword match,classified_json,114,7,121,0,The rider marked [ORDER_ID] as delivered but I never received the package. Call [PHONE].
+T0155,C0285,technical,technical,The customer appears to have a technical-related problem.,classified_keyword,123,11,134,1,The app crashes every time I open the cart. I tried to place [ORDER_ID] again and got an error. Email [EMAIL]
+T0104,C0815,fraud,fraud,keyword match,classified_json,114,7,121,0,"Someone hacked my account and used my wallet balance. This is fraud, contact [EMAIL]"
+T0012,C0335,fraud,fraud,keyword match,classified_json,120,7,127,0,"I was charged for order [ORDER_ID] that I never made, it looks like fraud on my account. Call [PHONE]."
+T0084,C0569,fraud,,,flagged_invalid_output,120,7,127,0,There is an unauthorized transaction on my card linked to order [ORDER_ID]. I did not place it. Call [PHONE].
+T0051,C1049,technical,technical,keyword match,classified_json,107,7,114,0,"I cannot login, the OTP never arrives on [PHONE]."
+T0143,C0339,technical,technical,keyword match,classified_json,123,7,130,0,The app crashes every time I open the cart. I tried to place [ORDER_ID] again and got an error. Email [EMAIL]
+T0035,C1175,technical,technical,keyword match,classified_json,118,7,125,0,The payment page shows an error and the app freezes when I apply a coupon. Order [ORDER_ID].
+T0028,C1036,fraud,fraud,keyword match,classified_json,120,7,127,0,There is an unauthorized transaction on my card linked to order [ORDER_ID]. I did not place it. Call [PHONE].
+T0100,C0754,fraud,fraud,keyword match,classified_json,120,7,127,1,There is an unauthorized transaction on my card linked to order [ORDER_ID]. I did not place it. Call [PHONE].
+T0022,C1160,delivery,delivery,keyword match,classified_json,118,7,125,0,My order [ORDER_ID] has not arrived and the rider is not picking up calls. Please call [PHONE].
+T0082,C0168,delivery,delivery,keyword match,classified_json,114,7,121,0,The rider marked [ORDER_ID] as delivered but I never received the package. Call [PHONE].
+T0127,C0976,technical,technical,keyword match,classified_json,118,7,125,0,The payment page shows an error and the app freezes when I apply a coupon. Order [ORDER_ID].
+T0109,C1080,billing,billing,keyword match,classified_json,116,7,123,0,I was charged twice for order [ORDER_ID]. Please refund the extra payment. My email is [EMAIL]
+T0046,C0442,delivery,delivery,The customer appears to have a delivery-related problem.,classified_keyword,118,11,129,0,My order [ORDER_ID] has not arrived and the rider is not picking up calls. Please call [PHONE].
+T0081,C0559,billing,billing,keyword match,classified_json,116,7,123,0,The invoice for [ORDER_ID] shows a wrong amount. Call me on [PHONE] to correct the bill.
+T0007,C0682,technical,technical,keyword match,classified_json,107,7,114,0,"I cannot login, the OTP never arrives on [PHONE]."
+T0068,C0208,fraud,fraud,keyword match,classified_json,120,7,127,1,"I was charged for order [ORDER_ID] that I never made, it looks like fraud on my account. Call [PHONE]."
+T0085,C0031,billing,billing,keyword match,classified_json,116,7,123,0,The invoice for [ORDER_ID] shows a wrong amount. Call me on [PHONE] to correct the bill.
+T0075,C0901,technical,technical,keyword match,classified_json,123,7,130,0,The app crashes every time I open the cart. I tried to place [ORDER_ID] again and got an error. Email [EMAIL]
+T0052,C1005,fraud,fraud,keyword match,classified_json,120,7,127,0,There is an unauthorized transaction on my card linked to order [ORDER_ID]. I did not place it. Call [PHONE].
+T0066,C1199,delivery,,,flagged_invalid_output,118,7,125,0,My order [ORDER_ID] has not arrived and the rider is not picking up calls. Please call [PHONE].
+T0151,C1011,technical,technical,keyword match,classified_json,107,7,114,0,"I cannot login, the OTP never arrives on [PHONE]."
+T0131,C0069,technical,technical,keyword match,classified_json,107,7,114,0,"I cannot login, the OTP never arrives on [PHONE]."
+T0006,C0177,delivery,delivery,keyword match,classified_json,115,7,122,0,"Delivery for [ORDER_ID] is very late, it was promised in 20 minutes. Write to [EMAIL]"
+T0135,C0303,technical,technical,keyword match,classified_json,118,7,125,1,The payment page shows an error and the app freezes when I apply a coupon. Order [ORDER_ID].
+T0079,C1128,technical,technical,keyword match,classified_json,107,7,114,0,"I cannot login, the OTP never arrives on [PHONE]."
+T0040,C0256,fraud,fraud,The customer appears to have a fraud-related problem.,classified_keyword,120,11,131,0,There is an unauthorized transaction on my card linked to order [ORDER_ID]. I did not place it. Call [PHONE].
+T0093,C0131,billing,billing,keyword match,classified_json,116,7,123,0,The invoice for [ORDER_ID] shows a wrong amount. Call me on [PHONE] to correct the bill.
+T0089,C0860,billing,billing,keyword match,classified_json,112,7,119,0,"Extra money was deducted for order [ORDER_ID], please check the bill. Contact [EMAIL]"
+T0034,C1188,delivery,delivery,keyword match,classified_json,118,7,125,0,My order [ORDER_ID] has not arrived and the rider is not picking up calls. Please call [PHONE].
+T0033,C0714,billing,billing,keyword match,classified_json,116,7,123,0,The invoice for [ORDER_ID] shows a wrong amount. Call me on [PHONE] to correct the bill.
+T0087,C0797,technical,technical,keyword match,classified_json,123,7,130,0,The app crashes every time I open the cart. I tried to place [ORDER_ID] again and got an error. Email [EMAIL]
+T0009,C0758,billing,billing,keyword match,classified_json,116,7,123,1,I was charged twice for order [ORDER_ID]. Please refund the extra payment. My email is [EMAIL]
+T0108,C0340,fraud,fraud,keyword match,classified_json,120,7,127,0,"I was charged for order [ORDER_ID] that I never made, it looks like fraud on my account. Call [PHONE]."
+T0054,C0571,delivery,delivery,keyword match,classified_json,115,7,122,0,"Delivery for [ORDER_ID] is very late, it was promised in 20 minutes. Write to [EMAIL]"
+T0025,C0610,billing,billing,keyword match,classified_json,116,7,123,0,The invoice for [ORDER_ID] shows a wrong amount. Call me on [PHONE] to correct the bill.
+T0004,C0721,fraud,fraud,keyword match,classified_json,120,7,127,0,There is an unauthorized transaction on my card linked to order [ORDER_ID]. I did not place it. Call [PHONE].
+T0148,C1057,fraud,,,flagged_invalid_output,120,7,127,0,There is an unauthorized transaction on my card linked to order [ORDER_ID]. I did not place it. Call [PHONE].
+T0088,C0852,fraud,fraud,keyword match,classified_json,114,7,121,0,"Someone hacked my account and used my wallet balance. This is fraud, contact [EMAIL]"
+T0030,C0015,delivery,delivery,The customer appears to have a delivery-related problem.,classified_keyword,115,11,126,0,"Delivery for [ORDER_ID] is very late, it was promised in 20 minutes. Write to [EMAIL]"
+T0067,C0704,technical,technical,keyword match,classified_json,107,7,114,1,"I cannot login, the OTP never arrives on [PHONE]."
+T0029,C0885,billing,billing,keyword match,classified_json,116,7,123,0,The invoice for [ORDER_ID] shows a wrong amount. Call me on [PHONE] to correct the bill.
+T0129,C0237,billing,billing,keyword match,classified_json,116,7,123,0,I was charged twice for order [ORDER_ID]. Please refund the extra payment. My email is [EMAIL]
+T0105,C0063,billing,billing,keyword match,classified_json,112,7,119,0,"Extra money was deducted for order [ORDER_ID], please check the bill. Contact [EMAIL]"
+T0045,C0628,billing,billing,keyword match,classified_json,116,7,123,0,The invoice for [ORDER_ID] shows a wrong amount. Call me on [PHONE] to correct the bill.
+T0069,C0491,billing,billing,keyword match,classified_json,116,7,123,0,The invoice for [ORDER_ID] shows a wrong amount. Call me on [PHONE] to correct the bill.
+T0010,C1190,delivery,delivery,keyword match,classified_json,115,7,122,0,"Delivery for [ORDER_ID] is very late, it was promised in 20 minutes. Write to [EMAIL]"
+T0023,C0400,technical,technical,keyword match,classified_json,107,7,114,0,"I cannot login, the OTP never arrives on [PHONE]."
+T0106,C0197,delivery,delivery,keyword match,classified_json,115,7,122,1,"Delivery for [ORDER_ID] is very late, it was promised in 20 minutes. Write to [EMAIL]"
+T0015,C0488,technical,technical,keyword match,classified_json,118,7,125,0,The payment page shows an error and the app freezes when I apply a coupon. Order [ORDER_ID].
+T0091,C0796,technical,technical,keyword match,classified_json,123,7,130,0,The app crashes every time I open the cart. I tried to place [ORDER_ID] again and got an error. Email [EMAIL]
+T0126,C0996,delivery,delivery,keyword match,classified_json,114,7,121,0,The rider marked [ORDER_ID] as delivered but I never received the package. Call [PHONE].
+T0096,C0324,fraud,fraud,The customer appears to have a fraud-related problem.,classified_keyword,120,11,131,0,There is an unauthorized transaction on my card linked to order [ORDER_ID]. I did not place it. Call [PHONE].
+T0149,C0770,billing,billing,keyword match,classified_json,116,7,123,0,The invoice for [ORDER_ID] shows a wrong amount. Call me on [PHONE] to correct the bill.
+T0070,C1150,delivery,,,flagged_invalid_output,115,7,122,0,"Delivery for [ORDER_ID] is very late, it was promised in 20 minutes. Write to [EMAIL]"
+T0026,C0677,delivery,delivery,keyword match,classified_json,115,7,122,0,"Delivery for [ORDER_ID] is very late, it was promised in 20 minutes. Write to [EMAIL]"
+T0097,C0932,billing,billing,keyword match,classified_json,112,7,119,1,"Extra money was deducted for order [ORDER_ID], please check the bill. Contact [EMAIL]"
+T0132,C0282,fraud,fraud,keyword match,classified_json,120,7,127,0,"I was charged for order [ORDER_ID] that I never made, it looks like fraud on my account. Call [PHONE]."
+T0027,C0232,technical,technical,keyword match,classified_json,118,7,125,0,The payment page shows an error and the app freezes when I apply a coupon. Order [ORDER_ID].
+T0119,C0629,technical,technical,keyword match,classified_json,118,7,125,0,The payment page shows an error and the app freezes when I apply a coupon. Order [ORDER_ID].
+T0058,C0287,delivery,delivery,keyword match,classified_json,115,7,122,0,"Delivery for [ORDER_ID] is very late, it was promised in 20 minutes. Write to [EMAIL]"
+T0110,C0056,delivery,delivery,keyword match,classified_json,118,7,125,0,My order [ORDER_ID] has not arrived and the rider is not picking up calls. Please call [PHONE].
+T0018,C1135,delivery,delivery,keyword match,classified_json,115,7,122,0,"Delivery for [ORDER_ID] is very late, it was promised in 20 minutes. Write to [EMAIL]"
+T0032,C1139,fraud,fraud,keyword match,classified_json,120,7,127,0,There is an unauthorized transaction on my card linked to order [ORDER_ID]. I did not place it. Call [PHONE].
+T0003,C0591,technical,technical,keyword match,classified_json,107,7,114,1,"I cannot login, the OTP never arrives on [PHONE]."
+T0042,C0508,delivery,delivery,The customer appears to have a delivery-related problem.,classified_keyword,114,11,125,0,The rider marked [ORDER_ID] as delivered but I never received the package. Call [PHONE].
+T0056,C0140,fraud,fraud,keyword match,classified_json,120,7,127,0,There is an unauthorized transaction on my card linked to order [ORDER_ID]. I did not place it. Call [PHONE].
+T0114,C0619,delivery,delivery,keyword match,classified_json,114,7,121,0,The rider marked [ORDER_ID] as delivered but I never received the package. Call [PHONE].
+T0083,C0356,technical,technical,keyword match,classified_json,107,7,114,0,"I cannot login, the OTP never arrives on [PHONE]."
+T0138,C0720,delivery,delivery,keyword match,classified_json,115,7,122,0,"Delivery for [ORDER_ID] is very late, it was promised in 20 minutes. Write to [EMAIL]"
+T0057,C1199,billing,billing,keyword match,classified_json,112,7,119,0,"Extra money was deducted for order [ORDER_ID], please check the bill. Contact [EMAIL]"
+T0076,C0418,fraud,,,flagged_invalid_output,120,7,127,0,"I was charged for order [ORDER_ID] that I never made, it looks like fraud on my account. Call [PHONE]."
+T0019,C0579,technical,technical,keyword match,classified_json,123,7,130,1,The app crashes every time I open the cart. I tried to place [ORDER_ID] again and got an error. Email [EMAIL]
+T0103,C0499,technical,technical,keyword match,classified_json,118,7,125,0,The payment page shows an error and the app freezes when I apply a coupon. Order [ORDER_ID].
+T0090,C0322,delivery,delivery,keyword match,classified_json,118,7,125,0,My order [ORDER_ID] has not arrived and the rider is not picking up calls. Please call [PHONE].
+T0112,C0432,fraud,fraud,keyword match,classified_json,120,7,127,0,"I was charged for order [ORDER_ID] that I never made, it looks like fraud on my account. Call [PHONE]."
+T0133,C0717,billing,billing,keyword match,classified_json,112,7,119,0,"Extra money was deducted for order [ORDER_ID], please check the bill. Contact [EMAIL]"
+T0014,C0579,delivery,delivery,keyword match,classified_json,115,7,122,0,"Delivery for [ORDER_ID] is very late, it was promised in 20 minutes. Write to [EMAIL]"
+T0020,C0460,fraud,fraud,The customer appears to have a fraud-related problem.,classified_keyword,120,11,131,0,There is an unauthorized transaction on my card linked to order [ORDER_ID]. I did not place it. Call [PHONE].
+T0142,C0605,delivery,delivery,keyword match,classified_json,118,7,125,0,My order [ORDER_ID] has not arrived and the rider is not picking up calls. Please call [PHONE].
+T0086,C1132,delivery,delivery,keyword match,classified_json,114,7,121,1,The rider marked [ORDER_ID] as delivered but I never received the package. Call [PHONE].
+T0141,C0376,billing,billing,keyword match,classified_json,112,7,119,0,"Extra money was deducted for order [ORDER_ID], please check the bill. Contact [EMAIL]"
+T0044,C0862,fraud,fraud,keyword match,classified_json,114,7,121,0,"Someone hacked my account and used my wallet balance. This is fraud, contact [EMAIL]"
+T0117,C0465,billing,billing,keyword match,classified_json,112,7,119,0,"Extra money was deducted for order [ORDER_ID], please check the bill. Contact [EMAIL]"
+T0078,C0586,delivery,delivery,keyword match,classified_json,114,7,121,0,The rider marked [ORDER_ID] as delivered but I never received the package. Call [PHONE].
+T0140,C1173,fraud,fraud,keyword match,classified_json,120,7,127,0,There is an unauthorized transaction on my card linked to order [ORDER_ID]. I did not place it. Call [PHONE].
+T0071,C0966,technical,technical,keyword match,classified_json,123,7,130,0,The app crashes every time I open the cart. I tried to place [ORDER_ID] again and got an error. Email [EMAIL]
+T0150,C0622,delivery,delivery,keyword match,classified_json,114,7,121,0,The rider marked [ORDER_ID] as delivered but I never received the package. Call [PHONE].
+T0065,C0205,billing,,,flagged_invalid_output,116,7,123,1,The invoice for [ORDER_ID] shows a wrong amount. Call me on [PHONE] to correct the bill.
+T0128,C0467,fraud,fraud,keyword match,classified_json,114,7,121,0,"Someone hacked my account and used my wallet balance. This is fraud, contact [EMAIL]"
+T0005,C0404,billing,billing,keyword match,classified_json,112,7,119,0,"Extra money was deducted for order [ORDER_ID], please check the bill. Contact [EMAIL]"
+T0098,C0343,delivery,delivery,The customer appears to have a delivery-related problem.,classified_keyword,114,11,125,0,The rider marked [ORDER_ID] as delivered but I never received the package. Call [PHONE].

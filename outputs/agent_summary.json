@@ -1,0 +1,51 @@
+[
+  {
+    "scenario_id": "S1",
+    "status": "REFUND",
+    "refund_amount": 128.25,
+    "llm_calls": 5,
+    "tokens_used": 898
+  },
+  {
+    "scenario_id": "S2",
+    "status": "REFUND",
+    "refund_amount": 135.0,
+    "llm_calls": 5,
+    "tokens_used": 898
+  },
+  {
+    "scenario_id": "S3",
+    "status": "ESCALATE",
+    "refund_amount": 1999.0,
+    "llm_calls": 5,
+    "tokens_used": 885
+  },
+  {
+    "scenario_id": "S4",
+    "status": "DENIED",
+    "refund_amount": 0.0,
+    "llm_calls": 4,
+    "tokens_used": 598
+  },
+  {
+    "scenario_id": "S5",
+    "status": "DENIED",
+    "refund_amount": 0.0,
+    "llm_calls": 3,
+    "tokens_used": 326
+  },
+  {
+    "scenario_id": "S6",
+    "status": "NOT_FOUND",
+    "refund_amount": 0.0,
+    "llm_calls": 2,
+    "tokens_used": 61
+  },
+  {
+    "scenario_id": "S7",
+    "status": "FALLBACK_MAX_ITERATIONS",
+    "refund_amount": 0.0,
+    "llm_calls": 6,
+    "tokens_used": 3018
+  }
+]

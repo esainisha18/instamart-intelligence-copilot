@@ -1,0 +1,176 @@
+{
+  "question_count": 14,
+  "answerable_count": 12,
+  "unanswerable_count": 2,
+  "doc_hits": 12,
+  "fact_hits": 10,
+  "fallback_hits": 2,
+  "failures": [
+    {
+      "question": "What delivery time makes a completed order eligible for a full refund?",
+      "failure": "doc_found=True, fact_found=False",
+      "answer": "receives a full refund of the order amount."
+    },
+    {
+      "question": "How soon is money returned when a payment fails but is deducted?",
+      "failure": "doc_found=True, fact_found=False",
+      "answer": "If a payment fails but money is deducted, the amount is returned automatically\n \n1000 must be approved by a human support lead before money is returned."
+    }
+  ],
+  "records": [
+    {
+      "question": "What delivery time makes a completed order eligible for a full refund?",
+      "expected_doc": "refund_policy.txt",
+      "expected_fact": "more than 45 minutes",
+      "retrieved_sources": [
+        "refund_policy.txt",
+        "refund_policy.txt",
+        "privacy_policy.txt"
+      ],
+      "answer": "receives a full refund of the order amount."
+    },
+    {
+      "question": "Who must approve a refund above INR 1000?",
+      "expected_doc": "refund_policy.txt",
+      "expected_fact": "human support lead",
+      "retrieved_sources": [
+        "refund_policy.txt",
+        "refund_policy.txt",
+        "refund_policy.txt"
+      ],
+      "answer": "A refund above INR\n \n1000 must be approved by a human support lead before money is returned."
+    },
+    {
+      "question": "How many days do I have to raise a refund request?",
+      "expected_doc": "refund_policy.txt",
+      "expected_fact": "within 7 days",
+      "retrieved_sources": [
+        "refund_policy.txt",
+        "refund_policy.txt",
+        "refund_policy.txt"
+      ],
+      "answer": "A refund request must be raised within 7 days of the delivery date."
+    },
+    {
+      "question": "What is the delivery fee on small orders?",
+      "expected_doc": "delivery_policy.txt",
+      "expected_fact": "INR 25",
+      "retrieved_sources": [
+        "delivery_policy.txt",
+        "payment_policy.txt",
+        "delivery_policy.txt"
+      ],
+      "answer": "A delivery fee of INR 25 is charged on orders below INR 199,\n \nPayment Policy."
+    },
+    {
+      "question": "On orders of what value is delivery free?",
+      "expected_doc": "delivery_policy.txt",
+      "expected_fact": "INR 199 or more",
+      "retrieved_sources": [
+        "delivery_policy.txt",
+        "delivery_policy.txt",
+        "payment_policy.txt"
+      ],
+      "answer": "A delivery fee of INR 25 is charged on orders below INR 199,\n \nand delivery is free on orders of INR 199 or more."
+    },
+    {
+      "question": "Why does the electronics delivery need a one time password?",
+      "expected_doc": "delivery_policy.txt",
+      "expected_fact": "one time password",
+      "retrieved_sources": [
+        "delivery_policy.txt",
+        "delivery_policy.txt",
+        "delivery_policy.txt"
+      ],
+      "answer": "Electronics items are delivered only after the customer shares a one time password with the rider."
+    },
+    {
+      "question": "Is cash on delivery available for a large order?",
+      "expected_doc": "payment_policy.txt",
+      "expected_fact": "INR 2500",
+      "retrieved_sources": [
+        "payment_policy.txt",
+        "payment_policy.txt",
+        "payment_policy.txt"
+      ],
+      "answer": "Cash on delivery is available only for orders up to INR 2500."
+    },
+    {
+      "question": "How soon is money returned when a payment fails but is deducted?",
+      "expected_doc": "payment_policy.txt",
+      "expected_fact": "48 hours",
+      "retrieved_sources": [
+        "payment_policy.txt",
+        "refund_policy.txt",
+        "privacy_policy.txt"
+      ],
+      "answer": "If a payment fails but money is deducted, the amount is returned automatically\n \n1000 must be approved by a human support lead before money is returned."
+    },
+    {
+      "question": "Can wallet balance be refunded as cash?",
+      "expected_doc": "payment_policy.txt",
+      "expected_fact": "never refunded as cash",
+      "retrieved_sources": [
+        "payment_policy.txt",
+        "payment_policy.txt",
+        "payment_policy.txt"
+      ],
+      "answer": "Wallet balance can be used for any order and is never refunded as cash."
+    },
+    {
+      "question": "When are delivery addresses deleted from active systems?",
+      "expected_doc": "privacy_policy.txt",
+      "expected_fact": "180 days",
+      "retrieved_sources": [
+        "privacy_policy.txt",
+        "delivery_policy.txt",
+        "escalation_policy.txt"
+      ],
+      "answer": "Delivery addresses are deleted from active systems 180 days after\n \nDelivery Policy."
+    },
+    {
+      "question": "How fast must a fraud ticket reach the security team?",
+      "expected_doc": "escalation_policy.txt",
+      "expected_fact": "within 2 hours",
+      "retrieved_sources": [
+        "escalation_policy.txt",
+        "escalation_policy.txt",
+        "refund_policy.txt"
+      ],
+      "answer": "A ticket about fraud or an unauthorized transaction is marked high priority and sent to the security team within 2 hours."
+    },
+    {
+      "question": "After how many steps must an automated assistant hand over to a human?",
+      "expected_doc": "escalation_policy.txt",
+      "expected_fact": "6 steps",
+      "retrieved_sources": [
+        "escalation_policy.txt",
+        "refund_policy.txt",
+        "delivery_policy.txt"
+      ],
+      "answer": "an automated assistant cannot resolve a ticket within 6 steps, it must hand the case to a human agent with a short summary."
+    },
+    {
+      "question": "What is the favourite colour of the company mascot?",
+      "expected_doc": "NONE",
+      "expected_fact": "",
+      "retrieved_sources": [
+        "delivery_policy.txt",
+        "delivery_policy.txt",
+        "refund_policy.txt"
+      ],
+      "answer": "I could not find that information in the policy documents."
+    },
+    {
+      "question": "Who won the cricket world cup final?",
+      "expected_doc": "NONE",
+      "expected_fact": "",
+      "retrieved_sources": [
+        "payment_policy.txt",
+        "privacy_policy.txt",
+        "delivery_policy.txt"
+      ],
+      "answer": "I could not find that information in the policy documents."
+    }
+  ]
+}

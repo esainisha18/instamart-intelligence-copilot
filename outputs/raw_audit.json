@@ -1,0 +1,61 @@
+{
+  "customers": {
+    "rows": 1200,
+    "missing_values_by_column": {
+      "customer_id": 0,
+      "city": 0,
+      "signup_date": 0,
+      "age": 61,
+      "gender": 30
+    },
+    "missing_values_total": 91,
+    "exact_duplicates": 0
+  },
+  "products": {
+    "rows": 40,
+    "missing_values_by_column": {
+      "product_id": 0,
+      "product_name": 0,
+      "category": 0,
+      "price_inr": 0
+    },
+    "missing_values_total": 0,
+    "exact_duplicates": 0
+  },
+  "tickets": {
+    "rows": 164,
+    "missing_values_by_column": {
+      "ticket_id": 0,
+      "customer_id": 0,
+      "order_id": 8,
+      "text": 4,
+      "true_category": 0
+    },
+    "missing_values_total": 12,
+    "exact_duplicates": 0
+  },
+  "orders": {
+    "rows": 13084,
+    "missing_values_by_column": {
+      "order_id": 0,
+      "customer_id": 0,
+      "product_id": 0,
+      "quantity": 0,
+      "order_ts": 0,
+      "status": 0,
+      "discount_pct": 0,
+      "order_amount": 0,
+      "delivery_minutes": 2541
+    },
+    "missing_values_total": 2541,
+    "exact_duplicates": 119,
+    "invalid_amounts": 120,
+    "negative_delivery_minutes": 106,
+    "missing_delivery_minutes": 2541
+  },
+  "cleaned": {
+    "customers": 1200,
+    "products": 40,
+    "orders": 12309
+  }
+}
